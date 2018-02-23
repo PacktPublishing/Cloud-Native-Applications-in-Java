@@ -1,0 +1,10 @@
+---
+applications:
+- name: pcf-product
+  memory: 1G
+  random-route: true
+  path: target/pcf-product-0.1-SNAPSHOT.jar
+  services:
+   - prod-db
+    
+

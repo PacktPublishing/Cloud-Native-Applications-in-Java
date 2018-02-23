@@ -1,0 +1,31 @@
+eureka:
+  instance:
+    leaseRenewalIntervalInSeconds: 5
+
+logging:
+  level:
+    org.hibernate.tool.hbm2ddl: DEBUG
+    org.hibernate.SQL: DEBUG
+
+---
+spring:
+  profiles: docker
+eureka:
+  instance:
+    preferIpAddress: true
+  client:
+    serviceUrl:
+      defaultZone: http://eureka:8761/eureka/
+
+---
+spring:
+  profiles: postgres
+  datasource:
+    url: jdbc:postgresql://postgres:5432/product
+    username: dbuser
+    password: dbpass
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: none

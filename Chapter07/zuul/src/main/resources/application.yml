@@ -1,0 +1,13 @@
+server:
+  port: 8080
+
+zuul:
+  routes:
+    product:
+      path: /product*/**
+      stripPrefix: false
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:8761/eureka/
