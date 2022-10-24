@@ -39,3 +39,7 @@ The cloud is a technology that changes very rapidly. Hence, this book stresses o
 
 * [Developing Middleware in Java EE 8](https://www.packtpub.com/application-development/developing-middleware-java-ee-8?utm_source=github&utm_medium=repository&utm_campaign=9781788391078)
 
+### Download a free PDF
+
+ <i>If you have already purchased a print or Kindle version of this book, you can get a DRM-free PDF version at no cost.<br>Simply click on the link to claim your free PDF.</i>
+<p align="center"> <a href="https://packt.link/free-ebook/9781838827014">https://packt.link/free-ebook/9781838827014 </a> </p>
